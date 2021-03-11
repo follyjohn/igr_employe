@@ -3,9 +3,10 @@ package igr;
 public class IgrAlgerie implements CalculIgr {
 
     @Override
-    public float calcul(float SalaireNetMensuel) {
-        // TODO Auto-generated method stub
-        return 0;
+    public float calcul(float SalaireBrutMensuel) {
+        return SalaireBrutMensuel * 42/100;
     }
+
+   
     
 }
